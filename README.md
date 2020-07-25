@@ -3,7 +3,7 @@ danmaqua-touchbar-demo
 
 Just for fun :P
 
-**演示视频**：（稍后会上传）
+**演示视频**：![YouTube](https://youtu.be/nQALz_fuS6k)
 
 ## 这是什么
 
