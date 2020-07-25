@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Danmaqua</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <script src="../../node_modules/flv.js/dist/flv.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .content {
+            height: 100%;
+        }
+
+        #player-top-area {
+            -webkit-app-region: drag;
+            float: top;
+            display: block;
+            z-index: 3;
+            position: absolute;
+            width: 100%;
+            height: 64px;
+        }
+
+        #player-container {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <div id="player-top-area"></div>
+    <div id="player-container"></div>
+</div>
+<script src="./renderer.js"></script>
+</body>
+</html>
